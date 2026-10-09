@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*?*
+
+Sitemap: https://teteriadchenko-english.ru/sitemap.xml
