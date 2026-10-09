@@ -73,7 +73,7 @@ export const HeroSection: React.FC = () => {
                 <TeacherAvatar 
                   size="lg" 
                   showBadge={true} 
-                  imageUrl="/images/victoria-slavoladova.webp"
+                 imageUrl={`${import.meta.env.BASE_URL}images/victoria-slavoladova.webp`}
                   altText={`${siteContent.fullName} — ${siteContent.role}`}
                 />
               </div>
