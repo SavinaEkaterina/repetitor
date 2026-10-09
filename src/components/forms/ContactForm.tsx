@@ -1,4 +1,3 @@
-```tsx
 import React, { useState } from 'react';
 import { Send, MessageCircle, Sparkles, ArrowUpRight, Copy, Check, MessageSquare, Info, Clock, MapPin } from 'lucide-react';
 import { Button } from '../ui/Button';
@@ -287,4 +286,3 @@ export const ContactForm: React.FC<ContactFormProps> = ({
     </div>
   );
 };
-```
