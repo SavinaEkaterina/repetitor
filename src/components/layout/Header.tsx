@@ -92,7 +92,7 @@ export const Header: React.FC = () => {
         {/* 1. Left Zone: Brand Logo */}
         <Link to="/" className="flex items-center gap-2.5 sm:gap-3 group shrink-0 min-w-0" aria-label="На главную">
           <img
-            src="/images/victoria-logo.webp"
+            src={`${import.meta.env.BASE_URL}images/victoria-logo.webp`}
             alt={siteContent.brandName}
             className="h-9 sm:h-10 md:h-11 w-auto object-contain shrink-0 group-hover:scale-105 transition-transform"
           />
