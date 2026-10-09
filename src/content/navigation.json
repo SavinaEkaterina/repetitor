@@ -1,0 +1,90 @@
+{
+  "mainNavigation": [
+    {
+      "title": "Главная",
+      "path": "/",
+      "visible": true
+    },
+    {
+      "title": "Программы обучения",
+      "path": "#directions",
+      "visible": true,
+      "children": [
+        {
+          "title": "Подготовка к английскому в школе",
+          "path": "/school-preparation",
+          "description": "Мягкий старт перед школой",
+          "iconName": "Sparkles",
+          "visible": true
+        },
+        {
+          "title": "Английский для школьников",
+          "path": "/school-english",
+          "description": "Понятная грамматика и уверенность",
+          "iconName": "BookOpen",
+          "visible": true
+        },
+        {
+          "title": "Подготовка к ОГЭ",
+          "path": "/oge",
+          "description": "Системная подготовка к экзамену",
+          "iconName": "Award",
+          "visible": true
+        },
+        {
+          "title": "Английский для взрослых",
+          "path": "/adults",
+          "description": "Общий раздел и направления для взрослых",
+          "iconName": "Users",
+          "visible": true
+        },
+        {
+          "title": "Авторские курсы",
+          "path": "/courses",
+          "description": "Авторские образовательные программы",
+          "iconName": "GraduationCap",
+          "visible": true
+        },
+        {
+          "title": "Бесплатные курсы",
+          "path": "/free-courses",
+          "description": "Бесплатные материалы и вводные уроки",
+          "iconName": "Sparkles",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "title": "Обо мне",
+      "path": "/about",
+      "visible": true
+    },
+    {
+      "title": "Отзывы",
+      "path": "/reviews",
+      "visible": true
+    },
+    {
+      "title": "Новости",
+      "path": "/blog",
+      "visible": true
+    }
+  ],
+  "footerLegalNav": [
+    {
+      "title": "Политика конфиденциальности",
+      "path": "/privacy",
+      "visible": true
+    },
+    {
+      "title": "Договор оферты",
+      "path": "/offer",
+      "visible": true
+    },
+    {
+      "title": "Согласие на обработку персональных данных",
+      "path": "/personal-data",
+      "visible": true
+    }
+  ]
+}

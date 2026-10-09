@@ -1,0 +1,31 @@
+{
+  "vkUrl": "https://vk.me/slavoladova",
+  "isVkPending": false,
+  "telegramUrl": "https://t.me/slavoladova",
+  "isTelegramPending": false,
+  "maxUrl": "https://max.ru/u/f9LHodD0cOKasDRGIFMq2Y2LRHKBVjHEo-aJ0-qsO5AeZMkkuWSbMFlqpT0",
+  "isMaxPending": false,
+  "email": "contact@slavoladova.ru",
+  "isEmailPending": false,
+  "workingHours": "Пн — Сб: 09:00 — 20:00 (по МСК)",
+  "locationNote": "Онлайн-занятия проходят по всему миру в удобном цифровом формате с интерактивной онлайн-доской.",
+  "headingTitle": "Контакты и запись на консультацию",
+  "headingSubtitle": "Свяжитесь со мной удобным способом или оставьте заявку для подбора оптимального формата обучения.",
+  "formBadge": "Прямая связь с преподавателем",
+  "formTitle": "Записаться на ознакомительное занятие",
+  "formSubtitle": "Выберите направление и напишите мне напрямую в удобном мессенджере.",
+  "directionLabel": "Направление обучения:",
+  "writeDirectlyLabel": "Написать напрямую:",
+  "qrInstruction": "Наведите камеру смартфона на QR-код или нажмите для перехода",
+  "telegramButtonText": "Написать в Telegram",
+  "vkButtonText": "Написать в ВКонтакте",
+  "maxButtonText": "Написать в MAX",
+  "directions": [
+    "Подготовка к школе (1–2 класс)",
+    "Школьный английский (2–8 класс)",
+    "Подготовка к ОГЭ (9 класс)",
+    "Английский для взрослых (18+)",
+    "Авторские курсы и интенсивы"
+  ],
+  "formSuccessMessage": "Спасибо! Ваша заявка отправлена. Я свяжусь с вами в ближайшее время."
+}

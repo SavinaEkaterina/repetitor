@@ -1,0 +1,58 @@
+{
+  "published": true,
+  "headingBadge": "Бесплатное обучение и материалы",
+  "headingTitle": "Бесплатные материалы и вводные уроки",
+  "headingSubtitle": "Познакомьтесь с моей методикой и учебным подходом перед началом полного обучения.",
+  "items": [
+    {
+      "id": "reading-rules-1-2",
+      "category": "Для детей",
+      "label": "PDF-памятка",
+      "title": "Памятка правил чтения для начальной школы",
+      "description": "Наглядная схема основных гласных и буквосочетаний английского языка для учеников 1–2 классов.",
+      "free": true,
+      "downloadUrl": "/materials/reading-rules-1-2-class.pdf",
+      "buttonText": "Скачать бесплатно",
+      "iconName": "FileText",
+      "published": true
+    },
+    {
+      "id": "oge-email-checklist",
+      "category": "ОГЭ 9 класс",
+      "label": "Гайд по ОГЭ",
+      "title": "Чек-лист идеального электронного письма для ОГЭ",
+      "description": "Структура, вводные фразы и критерии оценивания личного письма по стандартам ФИПИ 2026 года.",
+      "free": true,
+      "downloadUrl": "/materials/oge-email-checklist.pdf",
+      "buttonText": "Скачать бесплатно",
+      "iconName": "BookOpen",
+      "published": true
+    },
+    {
+      "id": "adult-speaking-phrases",
+      "category": "Для взрослых",
+      "label": "Вводный урок",
+      "title": "Вводный мини-интенсив по разговорным фразам",
+      "description": "50 самых необходимых фраз для повседневных ситуаций и поездок для взрослых с любого уровня.",
+      "free": true,
+      "downloadUrl": "/materials/adult-speaking-phrases.pdf",
+      "buttonText": "Скачать бесплатно",
+      "iconName": "Video",
+      "published": true
+    }
+  ],
+  "infoBanner": {
+    "title": "Хотите перейти к систематическому обучению?",
+    "subtitle": "Исследуйте авторские асинхронные курсы для взрослых или запишитесь на консультацию ко мне по детскому направлению.",
+    "primaryButtonText": "Смотреть авторские курсы",
+    "primaryButtonHref": "/courses",
+    "secondaryButtonText": "Связаться со мной",
+    "secondaryButtonHref": "/contacts"
+  },
+  "noticeModal": {
+    "title": "Материал подготавливается",
+    "missingUrlText": "Материал подготавливается к публикации и скоро будет доступен для скачивания.",
+    "fetchErrorText": "Файл подготавливается и появится для скачивания в ближайшее время.",
+    "confirmButtonText": "Понятно"
+  }
+}
