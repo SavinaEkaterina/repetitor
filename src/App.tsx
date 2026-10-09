@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/layout/Layout';
@@ -27,7 +28,7 @@ import { NotFound } from './pages/NotFound';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/repetitor">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
