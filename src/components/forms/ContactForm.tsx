@@ -1,3 +1,4 @@
+```tsx
 import React, { useState } from 'react';
 import { Send, MessageCircle, Sparkles, ArrowUpRight, Copy, Check, MessageSquare, Info, Clock, MapPin } from 'lucide-react';
 import { Button } from '../ui/Button';
@@ -29,7 +30,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
       <div className="absolute -top-10 -right-10 w-36 h-36 bg-purple-100/60 rounded-full blur-xl pointer-events-none" />
 
       <div className="relative z-10 space-y-4">
-        
+
         {/* Header Title */}
         <div className="space-y-1">
           <div className="flex items-center gap-1.5 text-purple-700 font-semibold text-xs">
@@ -72,14 +73,14 @@ export const ContactForm: React.FC<ContactFormProps> = ({
           </div>
         </div>
 
-        {/* Mobile & Tablet (< lg): Messenger Action Buttons Grid (Compact 3-column / stacked mobile) */}
+        {/* Mobile & Tablet (< lg): Messenger Action Buttons Grid */}
         <div className="lg:hidden space-y-1.5">
           <span className="text-xs font-semibold text-slate-700">
             {contactsContent.writeDirectlyLabel || "Написать напрямую:"}
           </span>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
-            
+
             {/* Telegram Button */}
             <a
               href={contactsContent.telegramUrl}
@@ -137,7 +138,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
           </div>
 
           <div className="grid grid-cols-3 gap-4 items-stretch">
-            
+
             {/* 1. Telegram Card */}
             <div className="flex flex-col justify-between bg-white rounded-2xl p-4 border border-purple-100/90 shadow-xs hover:shadow-md transition-all duration-200 text-center">
               <div className="space-y-3">
@@ -160,7 +161,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
                   title="Открыть Telegram"
                 >
                   <img
-                    src="/images/qr-telegram.svg"
+                    src={`${import.meta.env.BASE_URL}images/qr-telegram.svg`}
                     alt="QR-код Telegram Виктории Славоладовой"
                     className="w-44 h-44 mx-auto object-contain select-none"
                     loading="lazy"
@@ -203,7 +204,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
                   title="Открыть ВКонтакте"
                 >
                   <img
-                    src="/images/qr-vk.svg"
+                    src={`${import.meta.env.BASE_URL}images/qr-vk.svg`}
                     alt="QR-код ВКонтакте Виктории Славоладовой"
                     className="w-44 h-44 mx-auto object-contain select-none"
                     loading="lazy"
@@ -246,7 +247,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
                   title="Открыть MAX"
                 >
                   <img
-                    src="/images/qr-max.svg"
+                    src={`${import.meta.env.BASE_URL}images/qr-max.svg`}
                     alt="QR-код MAX Виктории Славоладовой"
                     className="w-44 h-44 mx-auto object-contain select-none"
                     loading="lazy"
@@ -286,3 +287,4 @@ export const ContactForm: React.FC<ContactFormProps> = ({
     </div>
   );
 };
+```
