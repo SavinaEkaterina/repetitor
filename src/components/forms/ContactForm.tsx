@@ -25,7 +25,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
   ];
 
   return (
-    <div className={`bg-white rounded-2xl p-5 sm:p-6 border border-purple-100 shadow-md relative overflow-hidden ${className}`}>
+<div className={`bg-white rounded-2xl p-5 sm:p-6 border border-purple-100 shadow-md relative overflow-hidden ${className}`}>
       {/* Subtle Background Accent */}
       <div className="absolute -top-10 -right-10 w-36 h-36 bg-purple-100/60 rounded-full blur-xl pointer-events-none" />
 
